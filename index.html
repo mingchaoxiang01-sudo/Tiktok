@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>TikTok Coin Recharge</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -43,9 +43,9 @@
   <script type="importmap">
 {
   "imports": {
-    "react": "https://esm.sh/react@^19.2.3",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/"
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
   }
 }
 </script>
@@ -253,7 +253,7 @@
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 placeholder="Enter username"
-                className="bg-transparent w-full outline-none text-gray-900 font-medium placeholder-gray-400 text-sm"
+                className="bg-transparent w-full outline-none text-gray-900 font-medium placeholder-gray-400 text-base"
               />
             </div>
 
